@@ -1,8 +1,8 @@
 # Website Scaffold
 
-## **Remeber to add firebase credentials to ./src/components/base.js and to enable login with Google in the firebase console, in addition to changing the project name in package.json and package-lock.json**
+## **Remember to add firebase credentials to ./src/components/base.js and to enable login with Google and firestore in the firebase console, in addition to changing the project name in package.json and package-lock.json**
 
-## also remember to `firebase init`
+## **also remember to `firebase init` and `npm i`**
 
 ### Made with create-react-app
 
@@ -26,6 +26,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
+### **Firebase deploy does not use this folder automatically when deploying, remember to change it when asked. Also, remember to set it up as a single page app.**
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
 The build is minified and the filenames include the hashes.\
