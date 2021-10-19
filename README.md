@@ -2,7 +2,7 @@
 
 ## **Remember to add firebase credentials to ./src/components/base.js and to enable login with Google and firestore in the firebase console, in addition to changing the project name in package.json and package-lock.json**
 
-## **also remember to `firebase init` and `npm i`**
+## **also remember to `npm i` and `firebase init`**
 
 ### Made with create-react-app
 
