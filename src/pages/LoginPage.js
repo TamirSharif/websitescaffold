@@ -1,5 +1,3 @@
-/** @jsxImportSource @emotion/react */
-import tw from "twin.macro";
 import React, {useEffect, useState} from 'react'
 import app from '../components/base'
 import firebase from "firebase";

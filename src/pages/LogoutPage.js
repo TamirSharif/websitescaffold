@@ -12,7 +12,7 @@ export default function LogoutPage(props) {
           }).catch((error) => {
             // An error happened.
           });
-    }, [])
+    }, [setAuth])
     return (
         <div>
             {auth ? <span/> : <Redirect to="/login"/>}
